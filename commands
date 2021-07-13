@@ -1,0 +1,7 @@
+sudo docker run --gpus all -it --rm --ipc=host -v /home/shashimal/Desktop/FYPGaze:/home/shashimal/Desktop/FYPGaze --name FYPGazeproject pytorch/pytorch:1.8.1-cuda10.2-cudnn7-devel
+
+
+
+
+
+docker run --gpus all -it --rm --ipc=host -v /home/shashimal/Desktop/FYPGaze:/home --name FYPGazeproject pytorch/pytorch:1.8.1-cuda10.2-cudnn7-devel
